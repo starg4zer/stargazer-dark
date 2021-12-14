@@ -1,28 +1,32 @@
 {
-    "name": "stargazer-dark",
-    "displayName": "Stargazer Dark",
-    "description": "Stargazer's dark theme!",
-    "version": "0.np8.0",
-    "publisher": "Stargazer",
-    "engines": {
-        "vscode": "^1.63.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Stargazer Dark",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Stargazer Dark-color-theme.json"
-            }
-        ]
-    },
-    "keywords": [
-        "theme",
-        "dark theme",
-        "stargazer",
-        "stargazer dark"
+  "name": "stargazer-dark",
+  "displayName": "Stargazer Dark",
+  "description": "Stargazer's dark theme!",
+  "version": "0.8.0",
+  "publisher": "Stargazer",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/starg4zer/stargazer-dark"
+  },
+  "engines": {
+    "vscode": "^1.63.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Stargazer Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Stargazer Dark-color-theme.json"
+      }
     ]
+  },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "stargazer",
+    "stargazer dark"
+  ]
 }
